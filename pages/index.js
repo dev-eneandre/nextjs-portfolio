@@ -70,7 +70,7 @@ export default function Home() {
                   <a href="https://github.com/dev-eneandre" target="_blank"><AiFillGithub className='cursor-pointer dark:text-gray-400' /></a>              
               </div>
               <div className='relative mx-auto mb-10 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-                <Image className="object-cover" src={andre} fill />
+                <Image className="object-cover" src={andre} alt="profile" fill />
               </div>
             </section>
 
@@ -94,7 +94,7 @@ export default function Home() {
           {/* CARDS   */}
             <div className='lg:flex gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10   '>
-                <Image className="mx-auto" src={design} width={100} height={100} />
+                <Image className="mx-auto" src={design} width={100} height={100} alt="icons" />
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-300'>Beautiful Designs.</h3>
                 <p className='dark:text-gray-500'> 
                   Creating elegant designs suited for your needs following core design theory.
@@ -108,7 +108,7 @@ export default function Home() {
               </div>
             
               <div className='text-center shadow-lg p-10 rounded-xl my-10   '>
-                <Image className="mx-auto" src={consulting} width={100} height={100} />
+                <Image className="mx-auto" src={consulting} width={100} height={100} alt="icons"/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-300'>Beautiful  Designs.</h3>
                 <p className='dark:text-gray-500'>
                   Creating elegant designs suited for your needs following core design theory.
@@ -123,7 +123,7 @@ export default function Home() {
             
               
               <div className='text-center shadow-lg p-10 rounded-xl my-10   '>
-                <Image className="mx-auto" src={code} width={100} height={100} />
+                <Image className="mx-auto" src={code} width={100} height={100} alt="icons"/>
                 <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-300'>Beautiful Designs.</h3>
                 <p className='dark:text-gray-500'>
                     Creating elegant designs suited for your needs following core design theory.
@@ -156,12 +156,12 @@ export default function Home() {
 
 
             <div className='flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap '>
-              <div className='basis-1/3 flex-1' ><Image src={web1} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
-              <div className='basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
-              <div className='basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
-              <div className='basis-1/3 flex-1'><Image src={web4} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
-              <div className='basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
-              <div className='basis-1/3 flex-1'><Image src={web6} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1' ><Image src={web1} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1'><Image src={web2} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1'><Image src={web3} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1'><Image src={web4} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1'><Image src={web5} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
+              <div className='basis-1/3 flex-1'><Image src={web6} alt="project preview" className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout="responsive" /></div>
             </div>
           </section>
 
